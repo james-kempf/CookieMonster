@@ -8,7 +8,9 @@ CM.Backup = {};
 
 CM.Cache = {};
 
-CM.Config = {};
+CM.Config = {
+	BotBar = 0
+};
 
 CM.ConfigData = {};
 
@@ -2902,7 +2904,7 @@ CM.HasReplaceNativeGrimoireLaunch = false;
 CM.HasReplaceNativeGrimoireDraw = false;
 
 CM.ConfigDefault = {
-	BotBar: 0, 
+	BotBar: 1, 
 	TimerBar: 1, 
 	TimerBarPos: 0, 
 	BuildColor: 1, 

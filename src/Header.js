@@ -8,7 +8,9 @@ CM.Backup = {};
 
 CM.Cache = {};
 
-CM.Config = {};
+CM.Config = {
+    BotBar: 0
+};
 
 CM.ConfigData = {};
 
